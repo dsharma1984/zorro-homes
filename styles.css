@@ -25,7 +25,7 @@
     
     /* Layout */
     --container-width: 1200px;
-    --section-pad: 100px;
+    --section-pad: 120px;
 }
 
 /* =========================================
@@ -43,9 +43,10 @@ html {
 
 body {
     font-family: var(--font-body);
+    font-size: 1.125rem;
     background-color: var(--color-navy);
     color: var(--color-text-main);
-    line-height: 1.6;
+    line-height: 1.7;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
 }
@@ -60,7 +61,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     font-weight: 500;
     color: var(--color-white);
-    line-height: 1.2;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
 }
 
 a {
@@ -266,8 +268,9 @@ img {
 }
 
 .hero-title {
-    font-size: 4.5rem;
-    margin-bottom: 24px;
+    font-size: 5.5rem;
+    margin-bottom: 30px;
+    letter-spacing: -0.03em;
 }
 
 .hero-title span {
@@ -276,10 +279,11 @@ img {
 }
 
 .hero-subtitle {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: var(--color-text-muted);
     margin-bottom: 40px;
     max-width: 600px;
+    letter-spacing: 0.01em;
 }
 
 .hero-cta {
@@ -358,13 +362,13 @@ img {
 }
 
 .section-header h2 {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
 }
 
 .section-header p {
     color: var(--color-text-muted);
-    margin-top: 10px;
-    font-size: 1.1rem;
+    margin-top: 15px;
+    font-size: 1.25rem;
 }
 
 /* =========================================
@@ -413,13 +417,14 @@ img {
 }
 
 .service-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 16px;
 }
 
 .service-card p {
     color: var(--color-text-muted);
-    font-size: 0.95rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
 }
 
 /* =========================================
@@ -467,14 +472,14 @@ img {
 }
 
 .project-info h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 16px;
 }
 
 .project-details {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     margin-bottom: 24px;
 }
 
@@ -483,7 +488,7 @@ img {
     align-items: center;
     gap: 10px;
     color: var(--color-text-muted);
-    font-size: 0.95rem;
+    font-size: 1.05rem;
 }
 
 .btn-full {
@@ -510,13 +515,13 @@ img {
 }
 
 .lead-text h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 3.2rem;
+    margin-bottom: 15px;
 }
 
 .lead-text p {
     color: var(--color-text-muted);
-    font-size: 1.1rem;
+    font-size: 1.25rem;
 }
 
 .lead-form {
@@ -612,14 +617,15 @@ img {
 }
 
 .founder-content h2 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 3.5rem;
+    margin-bottom: 24px;
 }
 
 .founder-content p {
     color: var(--color-text-muted);
-    font-size: 1.1rem;
-    margin-bottom: 20px;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 24px;
 }
 
 .founder-content strong {
