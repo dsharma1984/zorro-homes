@@ -183,12 +183,10 @@ img {
     align-items: center;
 }
 
-.logo-text {
-    font-family: var(--font-heading);
-    font-size: 2.2rem;
-    font-weight: 700;
-    color: var(--color-white);
-    letter-spacing: 1px;
+.logo-img {
+    height: 48px;
+    width: auto;
+    display: block;
 }
 
 .nav-links {
@@ -660,12 +658,11 @@ img {
     margin-bottom: 60px;
 }
 
-.footer-brand .logo {
-    font-family: var(--font-heading);
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--color-white);
+.footer-brand .footer-logo {
+    height: 64px;
+    width: auto;
     margin-bottom: 20px;
+    display: block;
 }
 
 .footer-bio {
