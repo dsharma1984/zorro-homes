@@ -245,7 +245,7 @@ img {
     display: flex;
     align-items: center;
     position: relative;
-    background-image: url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920&q=80'); /* Luxury Dubai skyline */
+    background-image: url('assets/hero-bg.jpg'); /* Luxury Dubai skyline local */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -772,4 +772,44 @@ img {
     .hero-content {
         padding-top: 40px;
     }
+    .sticky-whatsapp {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .sticky-whatsapp svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* =========================================
+   STICKY WHATSAPP
+   ========================================= */
+.sticky-whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+    z-index: 1000;
+    transition: var(--transition-smooth);
+}
+
+.sticky-whatsapp:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.sticky-whatsapp svg {
+    width: 35px;
+    height: 35px;
 }
